@@ -5,5 +5,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/alelo
     password: masterkey
     username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
 server:
   port: 8080
