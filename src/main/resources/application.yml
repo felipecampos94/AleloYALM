@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: dev
+  datasource:
+    url: jdbc:postgresql://localhost:5432/alelo
+    password: masterkey
+    username: postgres
+server:
+  port: 8080
